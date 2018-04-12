@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/ga_bg_null">
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_setting"
+        android:background="@drawable/ga_btn_setting"
+        android:layout_alignRight="@+id/bg_gamearea"
+        android:layout_above="@+id/bg_gamearea"
+        />
+    <ImageView
+        android:layout_width="339dp"
+        android:layout_height="491dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/bg_margin_bottom"
+        android:layout_marginLeft="@dimen/bg_horizontal_margin"
+        android:layout_marginRight="@dimen/bg_horizontal_margin"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:id="@+id/bg_gamearea"
+        android:src="@drawable/ga_bg_gamearea" />
+
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:id="@+id/testimage"
+        android:src="@drawable/number1"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="61dp"
+        android:layout_alignTop="@+id/bg_gamearea"
+        android:layout_alignStart="@+id/bg_gamearea" />
+
+
+</RelativeLayout>

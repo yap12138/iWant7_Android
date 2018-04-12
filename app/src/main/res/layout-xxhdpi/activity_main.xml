@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ma_root"
+    tools:context=".activity.MainActivity"
+    android:background="@drawable/ga_bg_null">
+
+    <Button
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:id="@+id/btn_setting"
+        android:background="@drawable/ga_btn_setting"
+        android:layout_above="@+id/bg_gamearea"
+        android:layout_alignRight="@+id/bg_gamearea"
+        android:layout_marginBottom="6dp"/>
+
+    <ImageView
+        android:layout_width="287dp"
+        android:layout_height="416dp"
+        android:id="@+id/bg_gamearea"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ga_bg_gamearea" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/testimage"
+        android:src="@drawable/number1"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="51dp"
+        android:layout_alignTop="@+id/bg_gamearea"
+        android:layout_alignStart="@+id/bg_gamearea"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="287dp"
+        android:layout_height="46dp"
+        android:id="@+id/ic_logo"
+        android:src="@drawable/ma_ic_logo"
+        android:layout_alignTop="@+id/bg_gamearea"
+        android:layout_alignLeft="@+id/bg_gamearea"
+        android:layout_marginTop="130dp" />
+
+    <ImageButton
+        android:layout_width="118dp"
+        android:layout_height="46dp"
+        android:scaleType="centerInside"
+        android:id="@+id/btn_startgame"
+        android:src="@drawable/ma_btn_startgame"
+        android:background="#00ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/bg_gamearea"
+        android:layout_marginTop="210dp" />
+</RelativeLayout>

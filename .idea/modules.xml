@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/externalstoragetest/externalstoragetest.iml" filepath="$PROJECT_DIR$/externalstoragetest/externalstoragetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fullscreen/fullscreen.iml" filepath="$PROJECT_DIR$/fullscreen/fullscreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iWant7.iml" filepath="$PROJECT_DIR$/iWant7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/useassetsimages/useassetsimages.iml" filepath="$PROJECT_DIR$/useassetsimages/useassetsimages.iml" />
+    </modules>
+  </component>
+</project>
